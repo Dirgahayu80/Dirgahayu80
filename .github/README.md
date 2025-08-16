@@ -62,3 +62,6 @@ Meskipun repositori ini difokuskan untuk tampilan profil, pengguna lain tetap da
 Dirgahayu Republik Indonesia yang ke-80 menjadi tonggak sejarah penting bagi seluruh rakyat Indonesia. Semoga semangat perjuangan, kemerdekaan, dan persatuan tetap terjaga, serta mampu mendorong generasi saat ini untuk terus berkarya, berinovasi, dan berkontribusi di berbagai bidang, termasuk teknologi dan open-source.
 
 Salam Merdeka.
+
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Dirgahayu80/Dirgahayu80&type=Date)](https://www.star-history.com/#Dirgahayu80/Dirgahayu80&Date)
