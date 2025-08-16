@@ -1,31 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import AboutStriX from './pages/AboutStriX';
-import Constellation from './pages/Constellation';
-import LaunchMissions from './pages/LaunchMissions';
-import './styles/animations.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Timeline from './components/Timeline';
+import Gallery from './components/Gallery';
+import Events from './components/Events';
+import ParticipationForm from './components/ParticipationForm';
+import Footer from './components/Footer';
+import AudioPlayer from './components/AudioPlayer';
+import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div className="bg-gray-900 min-h-screen text-white overflow-x-hidden">
-        <div className="fixed inset-0 bg-gradient-to-b from-gray-900 via-blue-900/20 to-gray-900 pointer-events-none"></div>
-        <div className="relative z-10">
-          <Navbar />
-          <AnimatePresence mode="wait">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/satellite-strix" element={<AboutStriX />} />
-              <Route path="/constellation" element={<Constellation />} />
-              <Route path="/launch-missions" element={<LaunchMissions />} />
-            </Routes>
-          </AnimatePresence>
-        </div>
-      </div>
-    </Router>
+    <div className="min-h-screen bg-white">
+      <Header />
+      <Hero />
+      <About />
+      <Timeline />
+      <Gallery />
+      <Events />
+      <ParticipationForm />
+      <Footer />
+      <AudioPlayer />
+    </div>
   );
 }
 
